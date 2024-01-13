@@ -1,0 +1,20 @@
+[package]
+name = "first-rust-project"
+version = "0.1.0"
+authors = ["Lewish1998 <108507629+Lewish1998@users.noreply.github.com>"]
+edition = "2021"
+build = "build.rs"
+description = "Simple income divider"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.0"
+chrono = "0.4.19"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "Income Calculator"
+identifier = "com.lewish1998.income-divider"
